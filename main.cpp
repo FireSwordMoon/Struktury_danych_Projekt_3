@@ -80,7 +80,7 @@ int main() {
             long long time_search_opt = 0, time_search_avg = 0, time_search_pes = 0;
             long long time_remove_opt = 0, time_remove_avg = 0, time_remove_pes = 0;
 
-            // wykonanie testow sto razy
+            // wykonanie testow tysiac razy
             for (int i = 0; i < 1000; i++) {
                 
                 // testowanie szukania nie modyfikuje stanu
